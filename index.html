@@ -15,28 +15,63 @@
             src="https://kit.fontawesome.com/ee634a1922.js"
             crossorigin="anonymous"
         ></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+
         <link rel="stylesheet" href="style.css" />
         <title>Portfolio | Ibrahim Tangco</title>
     </head>
     <body>
         <div class="lg:w-11/12 mx-auto px-4">
-            <!-- logo -->
-            <div class="container mx-auto">
-                <a
-                    href="https://www.facebook.com/profile.php?id=100081005246497"
-                    class="font-bold text-md text-gray-950 p-4 inline-block"
-                    >@Ibrahim13</a
+            <!-- TODO: Loader -->
+            <!-- <div class="flex items-center justify-center h-screen">
+                <img src="images/loader.gif" alt="" class="w-24" />
+            </div> -->
+
+            <!--* navigation -->
+            <nav
+                class="container mx-auto pt-8 flex flex-col md:flex-row md:items-center md:justify-between"
+            >
+                <div
+                    class="flex justify-between items-center lg:wow lg:animate__animated animate__fadeInLeft"
                 >
-            </div>
-            <!-- Header -->
+                    <a
+                        href="https://www.facebook.com/profile.php?id=100081005246497"
+                        class="font-bold text-md text-gray-950 p-4 inline-block"
+                        >@Ibrahim13</a
+                    >
+
+                    <i
+                        class="fa-solid fa-bars-staggered p-4 text-xl md:hidden"
+                        id="menu-icon"
+                    ></i>
+                </div>
+
+                <!-- ------------ -->
+                <ul
+                    id="nav-links"
+                    class="nav-links hidden md:space-x-12 md:mr-48 md:flex lg:wow lg:animate__animated animate__fadeInRight"
+                >
+                    <li>
+                        <a href="index.html" class="font-bold active">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="favorites.html" class="font-bold">Favorites</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--* Header -->
             <header class="container mx-auto pb-20">
-                <!-- hero page -->
+                <!--* hero page -->
                 <div
                     class="flex flex-col justify-center space-y-48 lg:space-x-12 px-4 my-32 lg:flex-row lg:space-y-0"
                 >
-                    <!-- left content -->
+                    <!--* left content -->
                     <div
-                        class="flex flex-col space-y-4 justify-center lg:w-6/12"
+                        class="flex flex-col space-y-4 justify-center lg:w-6/12 lg:wow animate__animated animate__fadeInLeft"
                     >
                         <h1 class="text-6xl font-bold">Ibrahim Tangco.</h1>
                         <h3 class="text-gray-500 text-lg font-medium">
@@ -59,9 +94,9 @@
                         </div>
                     </div>
 
-                    <!-- right content image -->
+                    <!--* right content image -->
                     <div
-                        class="hidden items-center hero justify-center md:flex lg:w-6/12"
+                        class="hidden items-center hero justify-center md:flex lg:w-6/12 lg:wow animate__animated animate__fadeInRight"
                     >
                         <img
                             src="images/pic-1.JPG"
@@ -82,25 +117,29 @@
                 </div>
             </header>
 
-            <!-- main -->
+            <!--* main -->
             <main class="container mx-auto h-full">
-                <!-- About Container -->
+                <!--* About Container -->
                 <div class="flex justify-center md:pt-16">
                     <div>
-                        <!-- About title -->
-                        <h2 class="text-5xl text-gray-900 text-center">
+                        <!--* About title -->
+                        <h2
+                            class="text-5xl text-gray-900 text-center lg:wow animate__animated animate__fadeInDown"
+                        >
                             About Me
                         </h2>
                         <p
-                            class="text-base text-gray-600 text-center font-medium"
+                            class="text-base text-gray-600 text-center font-medium lg:wow animate__animated animate__fadeInDown"
                         >
                             Personal
                         </p>
-                        <!-- about content -->
+                        <!--* about content -->
                         <div
                             class="flex justify-center flex-col items-center text-center space-y-16 space-x-4 mt-24 lg:space-y-0 lg:flex-row lg:text-left lg:items-start"
                         >
-                            <div class="lg:w-2/5 lg:space-y-4 lg:order-2">
+                            <div
+                                class="lg:w-2/5 lg:space-y-4 lg:order-2 lg:wow animate__animated animate__fadeInRight"
+                            >
                                 <p class="text-gray-500 text-lg">
                                     My interest in Computer Programming started
                                     back in 2020 when the pandemic hits us.
@@ -130,37 +169,41 @@
                                 </div>
                             </div>
 
-                            <div class="w-full lg:w-2/5 lg:order-1">
+                            <div
+                                class="w-full lg:w-2/5 lg:order-1 lg:wow animate__animated animate__fadeInLeft"
+                            >
                                 <img
                                     src="images/pic-4.jpeg"
                                     alt=""
-                                    class="max-h-96 w-full object-contain"
+                                    class="max-h-96 w-full object-contain lg:wow fadeInLeftBig"
                                 />
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Skills Container
+                <!--* Skills Container
              -->
                 <div class="flex justify-center my-20 md:py-32">
                     <div>
-                        <!-- Skill title -->
-                        <h2 class="text-5xl text-gray-900 text-center">
+                        <!--* Skill title -->
+                        <h2
+                            class="text-5xl text-gray-900 text-center lg:wow animate__animated animate__fadeInDown"
+                        >
                             Skills
                         </h2>
                         <p
-                            class="text-base text-gray-600 text-center font-medium"
+                            class="text-base text-gray-600 text-center font-medium lg:wow animate__animated animate__fadeInDown"
                         >
                             My Technical Skills
                         </p>
 
-                        <!-- SKills Content -->
+                        <!--* SKills Content -->
                         <div
                             class="flex flex-col items-center mt-20 space-y-8 lg:space-y-0 justify-center md:space-x-4 lg:flex-row"
                         >
                             <div
-                                class="p-8 w-4/5 rounded-lg shadow-xl text-center flex flex-col items-center space-y-4 cursor-pointer lg:w-1/4 lg:hover:shadow-blue-100 transition lg:hover:scale-105"
+                                class="p-8 w-4/5 rounded-lg shadow-xl text-center flex flex-col items-center space-y-4 cursor-pointer lg:w-1/4 lg:hover:shadow-blue-100 transition lg:hover:scale-105 lg:wow animate__animated animate__fadeInLeft"
                             >
                                 <img
                                     src="images/html-5.png"
@@ -172,7 +215,7 @@
                                 </p>
                             </div>
                             <div
-                                class="p-8 w-4/5 rounded-lg shadow-xl text-center flex flex-col items-center space-y-4 cursor-pointer lg:w-1/4 lg:hover:shadow-blue-100 transition lg:hover:scale-105"
+                                class="p-8 w-4/5 rounded-lg shadow-xl text-center flex flex-col items-center space-y-4 cursor-pointer lg:w-1/4 lg:hover:shadow-blue-100 transition lg:hover:scale-105 lg:wow animate__animated animate__fadeInUp"
                             >
                                 <img
                                     src="images/css-3.png"
@@ -184,7 +227,7 @@
                                 </p>
                             </div>
                             <div
-                                class="p-8 w-4/5 rounded-lg shadow-xl text-center flex flex-col items-center space-y-4 cursor-pointer lg:w-1/4 lg:hover:shadow-blue-100 transition lg:hover:scale-105"
+                                class="p-8 w-4/5 rounded-lg shadow-xl text-center flex flex-col items-center space-y-4 cursor-pointer lg:w-1/4 lg:hover:shadow-blue-100 transition lg:hover:scale-105 lg:wow animate__animated animate__fadeInRight"
                             >
                                 <img
                                     src="images/js.png"
@@ -199,30 +242,67 @@
                     </div>
                 </div>
 
-                <!-- Contact Container -->
-                <div class="md:py-32 flex flex-col space-y-6 items-center">
-                    <h2 class="text-5xl text-gray-900 text-center">
+                <!--* expectation -->
+                <div class="lg:min-h-screen pt-16 lg:py-32 lg:min-h-0">
+                    <h2
+                        class="pt-8 text-5xl text-gray-900 text-center lg:wow animate__animated animate__fadeInRight"
+                    >
+                        Expectation
+                    </h2>
+                    <p
+                        class="text-base text-gray-600 text-center font-medium mt-2 lg:wow animate__animated animate__fadeInRight"
+                    >
+                        Integrative Programming & Technologies 1
+                    </p>
+                    <p
+                        class="text-xl text-gray-600 text-center max-w-4xl mx-auto text-center pt-12 leading-9 lg:wow animate__animated animate__fadeInLeft"
+                    >
+                        I expect that after taking this course, I will be able
+                        to create, design, and develop simple projects and I
+                        will be able to integrate all these projects to produce
+                        a whole, functional system application. I expect that
+                        this course will help me to enhance the skills I already
+                        have in system development.
+                    </p>
+                </div>
+                <!--* Contact Container -->
+                <div class="py-32 flex flex-col space-y-6 items-center">
+                    <h2
+                        class="text-5xl text-gray-900 text-center lg:wow animate__animated animate__fadeInLeft"
+                    >
                         Get in Touch
                     </h2>
-                    <p class="text-xl text-gray-600 text-center max-w-4xl">
+                    <p
+                        class="text-xl text-gray-600 text-center max-w-4xl leading-9 lg:wow animate__animated animate__fadeInRight"
+                    >
                         Although I am not looking for a job, my inbox is always
                         open. You can message me, whether you have a question or
                         just wanted to say hi, I'll try my best to get back to
                         you.
                     </p>
                     <div class="pt-20">
-                        <a href="mailto:barangobong13@gmail.com">
+                        <a href="mailto:ibrahim.tangco@lorma.edu">
                             <button class="button">Say Hi</button>
                         </a>
                     </div>
                 </div>
             </main>
         </div>
-        <!-- footer -->
+        <!--* footer -->
         <footer
-            class="p-6 bg-slate-900 text-gray-300 font-thin text-center px-0"
+            class="mt-8 p-6 bg-slate-900 text-gray-300 font-thin text-center px-0 lg:mt-0"
         >
             <p>Designed & Built by Ibrahim Tangco &copy; 2023</p>
         </footer>
+
+        <!--* Script -->
+
+        <script src="app.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/wowjs/dist/wow.min.js"></script>
+
+        <script>
+            new WOW().init();
+        </script>
     </body>
 </html>

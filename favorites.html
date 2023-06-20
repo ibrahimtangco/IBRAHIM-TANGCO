@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script
+            src="https://kit.fontawesome.com/ee634a1922.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <title>Ibrahim Tangco | Favorites</title>
+    </head>
+    <body>
+        <div
+            class="lg:w-11/12 mx-auto px-4"
+            style="font-family: 'Lexend Deca', sans-serif"
+        >
+            <!-- navigation -->
+            <nav
+                class="container mx-auto pt-8 flex flex-col md:flex-row md:items-center md:justify-between"
+            >
+                <div
+                    class="flex justify-between items-center lg:wow lg:animate__animated animate__fadeInLeft"
+                >
+                    <a
+                        href="https://www.facebook.com/profile.php?id=100081005246497"
+                        class="font-bold text-md text-gray-950 p-4 inline-block"
+                        >@Ibrahim13</a
+                    >
+
+                    <i
+                        class="fa-solid fa-bars-staggered p-4 text-xl md:hidden"
+                        id="menu-icon"
+                    ></i>
+                </div>
+
+                <!-- ------------ -->
+                <ul
+                    id="nav-links"
+                    class="nav-links hidden md:space-x-12 md:mr-48 md:flex lg:wow lg:animate__animated animate__fadeInRight"
+                >
+                    <li>
+                        <a href="index.html" class="font-bold">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="favorites.html" class="font-bold active"
+                            >Favorites</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+
+            <main class="container mx-auto w-10/12">
+                <h2
+                    class="text-4xl lg:text-5xl text-gray-900 text-center py-8 mt-12 wow animate__animated animate__fadeInDown"
+                >
+                    Top 5 Favorite Movies
+                </h2>
+
+                <!-- movies container -->
+                <div
+                    class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-12 gap-2 md:gap-4 content-stretch"
+                >
+                    <!--* Iron Man 3 -->
+                    <a
+                        href="https://moviesjoy.to/movie/iron-man-3-19562"
+                        target="_blank"
+                        class="card transition flex wow animate__animated animate__fadeInLeft"
+                    >
+                        <div class="grid-span-1 bg-indigo-50 mx-auto relative">
+                            <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9QMfG9P5Lx7NxPsAfdNrU2AJ4s5cIA-tF6Z-zmpCKJMOw1klq"
+                                alt=""
+                            />
+                            <div class="p-1">
+                                <h3 class="text-xl mb-3 font-bold">
+                                    Iron Man 3
+                                </h3>
+                                <div class="flex justify-between items-center">
+                                    <p>2013・131m</p>
+                                    <button
+                                        class="border border-slate-900 text-sm px-2 rounded-sm"
+                                    >
+                                        Movie
+                                    </button>
+                                </div>
+                            </div>
+                            <div
+                                class="hide absolute w-full h-full bg-gray-950 top-0 left-0 bg-opacity-25"
+                            >
+                                <div
+                                    class="absolute h-14 w-14 rounded-full bg-blue-300 flex items-center justify-center inset-x-20 inset-y-40"
+                                >
+                                    <i
+                                        class="fa-solid fa-play text-2xl ml-1"
+                                    ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- * Fast X -->
+                    <a
+                        href="https://moviesjoy.to/movie/fast-and-furious-10-8846"
+                        target="_blank"
+                        class="card transition flex wow animate__animated animate__fadeInUp"
+                    >
+                        <div class="grid-span-1 bg-indigo-50 mx-auto relative">
+                            <img
+                                src="https://movies.universalpictures.com/media/fstx-montage1sheet2-rgb-1-64108e93e63dd-1.jpg"
+                                alt=""
+                            />
+                            <div class="p-1">
+                                <h3 class="text-xl mb-3 font-bold">Fast X</h3>
+                                <div class="flex justify-between items-center">
+                                    <p>2013・143m</p>
+                                    <button
+                                        class="border border-slate-900 text-sm px-2 rounded-sm"
+                                    >
+                                        Movie
+                                    </button>
+                                </div>
+                            </div>
+                            <div
+                                class="hide absolute w-full h-full bg-gray-950 top-0 left-0 bg-opacity-25"
+                            >
+                                <div
+                                    class="absolute h-14 w-14 rounded-full bg-blue-300 flex items-center justify-center inset-x-20 inset-y-40"
+                                >
+                                    <i
+                                        class="fa-solid fa-play text-2xl ml-1"
+                                    ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!--* Avatar  -->
+                    <a
+                        href="https://moviesjoy.to/movie/avatar-the-way-of-water-79936"
+                        target="_blank"
+                        class="card transition flex wow animate__animated animate__fadeInDown"
+                    >
+                        <div class="grid-span-1 bg-indigo-50 mx-auto relative">
+                            <img
+                                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSGQUTaBL19fLf8caYxcyNt0mYl9HgpiKPAaGgQxCuz3ZTvAWVI"
+                                alt=""
+                            />
+                            <div class="p-1">
+                                <h3 class="text-md mb-3 font-bold">
+                                    Avatar: The Way of Water
+                                </h3>
+                                <div class="flex justify-between items-center">
+                                    <p>2013・192m</p>
+                                    <button
+                                        class="border border-slate-900 text-sm px-2 rounded-sm"
+                                    >
+                                        Movie
+                                    </button>
+                                </div>
+                            </div>
+                            <div
+                                class="hide absolute w-full h-full bg-gray-950 top-0 left-0 bg-opacity-25"
+                            >
+                                <div
+                                    class="absolute h-14 w-14 rounded-full bg-blue-300 flex items-center justify-center inset-x-20 inset-y-40"
+                                >
+                                    <i
+                                        class="fa-solid fa-play text-2xl ml-1"
+                                    ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!--* John Wick 4  -->
+                    <a
+                        href="https://moviesjoy.to/movie/john-wick-chapter-4-90163"
+                        target="_blank"
+                        class="card transition flex wow animate__animated animate__fadeInUp"
+                    >
+                        <div class="grid-span-1 bg-indigo-50 mx-auto relative">
+                            <img
+                                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS33DWHodvlDR_SOCQyYyqrb9Td8hvufc3zYCnnAD4PkBX4W7dF"
+                                alt=""
+                            />
+                            <div class="p-1">
+                                <h3 class="text-md mb-3 font-bold">
+                                    John Wick: Chapter 4
+                                </h3>
+                                <div class="flex justify-between items-center">
+                                    <p>2013・120m</p>
+                                    <button
+                                        class="border border-slate-900 text-sm px-2 rounded-sm"
+                                    >
+                                        Movie
+                                    </button>
+                                </div>
+                            </div>
+                            <div
+                                class="hide absolute w-full h-full bg-gray-950 top-0 left-0 bg-opacity-25"
+                            >
+                                <div
+                                    class="absolute h-14 w-14 rounded-full bg-blue-300 flex items-center justify-center inset-x-20 inset-y-40"
+                                >
+                                    <i
+                                        class="fa-solid fa-play text-2xl ml-1"
+                                    ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!--* Ant Man  -->
+                    <a
+                        href="https://moviesjoy.to/movie/ant-man-and-the-wasp-quantumania-89518"
+                        target="_blank"
+                        class="card transition flex wow animate__animated animate__fadeInRight"
+                    >
+                        <div class="grid-span-1 bg-indigo-50 mx-auto relative">
+                            <img
+                                src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRE761oMvu7ZZ09vevgZ8jxgD0W1ye-_2p68Ga7qhajS9MIxW8y"
+                                alt=""
+                            />
+                            <div class="p-1">
+                                <h3 class="text-md mb-3 font-bold">
+                                    Ant-Man and the Wasp...
+                                </h3>
+                                <div class="flex justify-between items-center">
+                                    <p>2013・120m</p>
+                                    <button
+                                        class="border border-slate-900 text-sm px-2 rounded-sm"
+                                    >
+                                        Movie
+                                    </button>
+                                </div>
+                            </div>
+                            <div
+                                class="hide absolute w-full h-full bg-gray-950 top-0 left-0 bg-opacity-25"
+                            >
+                                <div
+                                    class="absolute h-14 w-14 rounded-full bg-blue-300 flex items-center justify-center inset-x-20 inset-y-40"
+                                >
+                                    <i
+                                        class="fa-solid fa-play text-2xl ml-1"
+                                    ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <h2
+                    class="text-4xl lg:text-5xl text-gray-900 text-center py-8 mt-32 wow animate__animated animate__fadeInDown"
+                >
+                    Top 5 Favorite Musics
+                </h2>
+                <!-- music container -->
+                <div class="grid place-items-center mt-12 mb-24">
+                    <div>
+                        <section
+                            class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-12 gap-2 md:gap-4"
+                        >
+                            <!-- CARD 1 -->
+                            <div
+                                class="bg-gray-900 shadow-lg rounded p-3 relative wow animate__animated animate__fadeInLeft"
+                            >
+                                <div class="h-60">
+                                    <img
+                                        class="w-full h-full md:w-72 block rounded object-cover"
+                                        src="https://wallpapercave.com/wp/wp1885010.jpg"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <div
+                                    class="w-full flex place-items-center mt-4 justify-evenly"
+                                >
+                                    <audio controls class="h-8">
+                                        <source
+                                            src="music/X2Download.app - The Script - Hall of Fame (Official Video) ft. will.i.am (320 kbps).mp3"
+                                        />
+                                    </audio>
+                                </div>
+
+                                <div class="pt-4 px-2">
+                                    <h3 class="text-white text-lg">
+                                        Hall of Fame
+                                    </h3>
+                                    <p class="text-gray-400">The Script</p>
+                                </div>
+                            </div>
+                            <!-- END OF CARD 1 -->
+
+                            <!-- CARD 1 -->
+                            <div
+                                class="bg-gray-900 shadow-lg rounded p-3 relative wow animate__animated animate__fadeInUp"
+                            >
+                                <div class="h-60">
+                                    <img
+                                        class="w-full h-full md:w-72 block rounded object-cover"
+                                        src="https://i.scdn.co/image/ab6761610000e5eb989ed05e1f0570cc4726c2d3"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <div
+                                    class="w-full flex place-items-center mt-4 justify-evenly"
+                                >
+                                    <audio controls class="h-8">
+                                        <source
+                                            src="music/tomp3.cc - Coldplay  Fix You Lyric Video.mp3"
+                                        />
+                                    </audio>
+                                </div>
+
+                                <div class="pt-4 px-2">
+                                    <h3 class="text-white text-lg">Fix You</h3>
+                                    <p class="text-gray-400">Coldplay</p>
+                                </div>
+                            </div>
+                            <!-- END OF CARD 1 -->
+
+                            <!-- CARD 1 -->
+                            <div
+                                class="bg-gray-900 shadow-lg rounded p-3 relative wow animate__animated animate__fadeInDown"
+                            >
+                                <div class="h-60">
+                                    <img
+                                        class="w-full h-full md:w-72 block rounded object-cover"
+                                        src="https://i.scdn.co/image/ab6761610000e5eb920dc1f617550de8388f368e"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <div
+                                    class="w-full flex place-items-center mt-4 justify-evenly"
+                                >
+                                    <audio controls class="h-8">
+                                        <source
+                                            src="music/tomp3.cc - DEMONS  Imagine Dragons  Lyric .mp3"
+                                        />
+                                    </audio>
+                                </div>
+
+                                <div class="pt-4 px-2">
+                                    <h3 class="text-white text-lg">Demons</h3>
+                                    <p class="text-gray-400">Imagine Dragons</p>
+                                </div>
+                            </div>
+                            <!-- END OF CARD 1 -->
+
+                            <!-- CARD 1 -->
+                            <div
+                                class="bg-gray-900 shadow-lg rounded p-3 relative wow animate__animated animate__fadeInUp"
+                            >
+                                <div class="h-60">
+                                    <img
+                                        class="w-full h-full md:w-72 block rounded object-cover"
+                                        src="https://lh3.googleusercontent.com/jQoBIAS6JjFGpcqQY1M_Mh3AasOvFENCdVRxkgax1a0K6qiq7AgE3MbJ6Jtt-Jndcarvoawmrg66KTny=w2880-h1200-p-l90-rj"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <div
+                                    class="w-full flex place-items-center mt-4 justify-evenly"
+                                >
+                                    <audio controls class="h-8">
+                                        <source
+                                            src="music/tomp3.cc - Ed Sheeran  Bad Habits Official Video.mp3"
+                                        />
+                                    </audio>
+                                </div>
+
+                                <div class="pt-4 px-2">
+                                    <h3 class="text-white text-lg">
+                                        Bad Habits
+                                    </h3>
+                                    <p class="text-gray-400">Ed Sheeran</p>
+                                </div>
+                            </div>
+                            <!-- END OF CARD 1 -->
+
+                            <!-- CARD 1 -->
+                            <div
+                                class="bg-gray-900 shadow-lg rounded p-3 relative wow animate__animated animate__fadeInRight"
+                            >
+                                <div class="h-60">
+                                    <img
+                                        class="w-full h-full md:w-72 block rounded object-cover"
+                                        src="https://www.billboard.com/wp-content/uploads/media/wiz-khalifa-see-you-again-vid-billboard-1548.jpg?w=1024"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <div
+                                    class="w-full flex place-items-center mt-4 justify-evenly"
+                                >
+                                    <audio controls class="h-8">
+                                        <source
+                                            src="music/tomp3.cc - Wiz Khalifa  See You Again ft Charlie Puth Official Video Furious 7 Soundtrack.mp3"
+                                        />
+                                    </audio>
+                                </div>
+
+                                <div class="pt-4 px-2">
+                                    <h3 class="text-white text-lg">
+                                        See You Again
+                                    </h3>
+                                    <p class="text-gray-400">Wiz Khalifa</p>
+                                </div>
+                            </div>
+                            <!-- END OF CARD 1 -->
+                        </section>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <!--* footer -->
+        <footer
+            class="mt-8 p-6 bg-slate-900 text-gray-300 font-thin text-center px-0 lg:mt-0"
+        >
+            <p>Designed & Built by Ibrahim Tangco &copy; 2023</p>
+        </footer>
+
+        <!-- Script -->
+        <script src="app.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/wowjs/dist/wow.min.js"></script>
+
+        <script>
+            new WOW().init();
+        </script>
+    </body>
+</html>
